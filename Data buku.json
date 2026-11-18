@@ -1,0 +1,166 @@
+{
+  "buku": [
+    {
+      "judul": "Hafalan Shalat Delisa",
+      "penulis": "Tere Liye",
+      "jumlah_halaman": 266,
+      "genre": "Religi"
+    },
+    {
+      "judul": "Daun yang Jatuh Tak Pernah Membenci Angin",
+      "penulis": "Tere Liye",
+      "jumlah_halaman": 264,
+      "genre": "Romantis"
+    },
+    {
+      "judul": "Rindu",
+      "penulis": "Tere Liye",
+      "jumlah_halaman": 544,
+      "genre": "Fiksi Sejarah"
+    },
+    {
+      "judul": "Hujan",
+      "penulis": "Tere Liye",
+      "jumlah_halaman": 320,
+      "genre": "Fiksi Ilmiah"
+    },
+    {
+      "judul": "Negeri Para Bedebah",
+      "penulis": "Tere Liye",
+      "jumlah_halaman": 440,
+      "genre": "Thriller"
+    },
+    {
+      "judul": "Pulang",
+      "penulis": "Tere Liye",
+      "jumlah_halaman": 400,
+      "genre": "Aksi"
+    },
+    {
+      "judul": "Bumi",
+      "penulis": "Tere Liye",
+      "jumlah_halaman": 440,
+      "genre": "Fantasi"
+    },
+    {
+      "judul": "Bulan",
+      "penulis": "Tere Liye",
+      "jumlah_halaman": 400,
+      "genre": "Fantasi"
+    },
+    {
+      "judul": "Pulang",
+      "penulis": "Leila S. Chudori",
+      "jumlah_halaman": 464,
+      "genre": "Fiksi Sejarah"
+    },
+    {
+      "judul": "Laut Bercerita",
+      "penulis": "Leila S. Chudori",
+      "jumlah_halaman": 379,
+      "genre": "Fiksi Sejarah"
+    },
+    {
+      "judul": "Namaku Alam",
+      "penulis": "Leila S. Chudori",
+      "jumlah_halaman": 438,
+      "genre": "Fiksi Sejarah"
+    },
+    {
+      "judul": "Dikta dan Hukum",
+      "penulis": "Dhia'an Farah",
+      "jumlah_halaman": 396,
+      "genre": "Romantis"
+    },
+    {
+      "judul": "Di Tanah Lada",
+      "penulis": "Ziggy Zezsyazeoviennazabrizkie",
+      "jumlah_halaman": 240,
+      "genre": "Fiksi Psikologis"
+    },
+    {
+      "judul": "00.00",
+      "penulis": "Ameylia Falensia",
+      "jumlah_halaman": 284,
+      "genre": "Romantis"
+    },
+    {
+      "judul": "Bumi Manusia",
+      "penulis": "Pramoedya Ananta Toer",
+      "jumlah_halaman": 551,
+      "genre": "Fiksi Sejarah"
+    },
+    {
+      "judul": "Kita Pergi Hari Ini",
+      "penulis": "Ziggy Zezsyazeoviennazabrizkie",
+      "jumlah_halaman": 192,
+      "genre": "Fiksi Satire"
+    },
+    {
+      "judul": "Mariposa",
+      "penulis": "Hidayatul Fajriyah",
+      "jumlah_halaman": 496,
+      "genre": "Romantis"
+    },
+    {
+      "judul": "Mariposa 2 part 1",
+      "penulis": "Hidayatul Fajriyah",
+      "jumlah_halaman": 392,
+      "genre": "Romantis"
+    },
+    {
+      "judul": "Mariposa 2 part 2",
+      "penulis": "Hidayatul Fajriyah",
+      "jumlah_halaman": 396,
+      "genre": "Romantis"
+    },
+    {
+      "judul": "Keajaiban Toko Kelontong Namia",
+      "penulis": "Keigo Higashino",
+      "jumlah_halaman": 400,
+      "genre": "Fantasi"
+    },
+    {
+      "judul": "3726 MDPL",
+      "penulis": "Almira Bastari",
+      "jumlah_halaman": 312,
+      "genre": "Slice of Life"
+    },
+    {
+      "judul": "Cantik Itu Luka",
+      "penulis": "Eka Kurniawan",
+      "jumlah_halaman": 508,
+      "genre": "Fiksi Sejarah"
+    },
+    {
+      "judul": "Aroma Karsa",
+      "penulis": "Dee Lestari",
+      "jumlah_halaman": 710,
+      "genre": "Fiksi Sejarah"
+    },
+    {
+      "judul": "Ronggeng Dukuh Paruk",
+      "penulis": "Ahmad Tohari",
+      "jumlah_halaman": 400,
+      "genre": "Fiksi Sejarah"
+    },
+    {
+      "judul": "Gadis Kretek",
+      "penulis": "Ratih Kumala",
+      "jumlah_halaman": 274,
+      "genre": "Fiksi Sejarah"
+    },
+    {
+      "judul": "Anak Pintar",
+      "penulis": "Tere Liye",
+      "jumlah_halaman": 400,
+      "genre": "Fantasi"
+    },
+    {
+      "judul": "Sunset Bersama Rosie",
+      "penulis": "Tere Liye",
+      "jumlah_halaman": 412,
+      "genre": "Romantis"
+    }
+  ]
+}
