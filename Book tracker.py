@@ -42,9 +42,9 @@ def tampilan_menu(hewan):
     emoji = ["🥚", "🐣", "🐥", "🐔"][min(hewan["total_baca"] // 3, 3)]
     print(f"{emoji} {hewan['nama']} - {kondisi_hewan(hewan)}")
     print(MAGENTA + "1." + RESET + "🔎 Cari Buku ")
-    print(MAGENTA + "2." + RESET + "➕ Tambah Buku ")
-    print(MAGENTA + "3." + RESET + "🗃️  Tampilkan Daftar Buku ")
-    print(MAGENTA + "4." + RESET + "📑 Riwayat Membaca ")
+    print(MAGENTA + "2." + RESET + "🗃️ Rak Buku ")
+    print(MAGENTA + "3." + RESET + "📑 Sedang dibaca ")
+    print(MAGENTA + "4." + RESET + "🔥 Streak ")
     print(MAGENTA + "5." + RESET + "🚪 Keluar")
 
 
@@ -85,6 +85,7 @@ def simpan_hewan(hewan):
     with open(HEWAN_FILE, "w", encoding="utf-8") as file:
         json.dump(hewan, file, indent=2, ensure_ascii=False)
 
+
 # ---------- HEWAN PELIHARAAN ----------
 def buat_hewan():
     nama = input("Beri nama hewan peliharaanmu: ")
@@ -124,10 +125,15 @@ def cari_buku():
 
     if ditemukan == 0:
         print(MERAH + "Buku tidak ditemukan." + RESET)
-        print(f"Tambahkan bukumu! {tambah_buku}")
+        print(KUNING + "Ayo tambahkan buku!"+ RESET)
+        print(tambah_buku(hewan))
     else:
         print(HIJAU + f"{ditemukan} buku ditemukan." + RESET)
 
+
+def back_menu(hewan):
+    tampilan_menu(hewan)
+    pilihan = ('Pilih Menu 1-5: ')
 
 # ---------- MENU 2: TAMBAH BUKU ----------
 def tambah_buku():
@@ -151,6 +157,16 @@ def tambah_buku():
     data_buku.append(buku_baru)
     simpan_data(data_buku)
     print(HIJAU + "Buku berhasil ditambahkan!" + RESET)
+
+def ingin_dibaca(hewan):
+    data_buku = baca_data()
+    kunci = input('Masukkan judul : ')
+    for kunci in data_buku:
+        print(BIRU + '=' * 10 + 'List Buku Akan Dibaca' + '=' * 10 + RESET)
+        print(f"| {'No' : }")
+        
+
+
 
 # ---------- MENU 3: TAMPILKAN DAFTAR BUKU ----------
 def tampilkan_daftar():
@@ -200,23 +216,19 @@ elif kondisi_hewan(hewan) == "Mati":
     hewan = buat_hewan()
 
 tampilan_menu(hewan)
-pilihan = input("Pilih menu (1-5): ")
-
-while pilihan != "5":
-    print()
+pilihan = input('Pilih Menu 1-5: ')
+back = 1
+while back == 0:
     if pilihan == "1":
         cari_buku()
-    elif pilihan == "2":
+    elif pilihan =="2":
         tambah_buku()
-    elif pilihan == "3":
+    elif pilihan =="3":
         tampilkan_daftar()
-    elif pilihan == "4":
+    elif pilihan =="4":
         riwayat_membaca(hewan)
+    elif pilihan =="5":
+        print(KUNING + "Terimakasih, sampai jumpa!" + RESET)
     else:
-        print(MERAH + "⚠️ Pilihan tidak valid, pilih 1-5." + RESET)
-
-    print()
-    tampilan_menu(hewan)
-    pilihan = input("Pilih menu (1-5): ")
-
-print(KUNING + "Terima kasih, sampai jumpa 🤍!" + RESET)
+        print("Tidak valid, pilih 1-5")
+        
