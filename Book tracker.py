@@ -124,8 +124,10 @@ def cari_buku():
 
     if ditemukan == 0:
         print(MERAH + "Buku tidak ditemukan." + RESET)
+        print(f"Tambahkan bukumu! {tambah_buku}")
     else:
         print(HIJAU + f"{ditemukan} buku ditemukan." + RESET)
+
 
 # ---------- MENU 2: TAMBAH BUKU ----------
 def tambah_buku():
