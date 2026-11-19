@@ -161,6 +161,12 @@
       "penulis": "Tere Liye",
       "jumlah_halaman": 412,
       "genre": "Romantis"
+    },
+    {
+      "judul": "dear diary",
+      "penulis": "nawa",
+      "jumlah_halaman": 146,
+      "genre": "romance"
     }
   ]
 }
